@@ -1,0 +1,15 @@
+Puede una misma persona tener mas de un credito?
+
+Que pasa cuando con los planes anteriores cuando creamos uno nuevo?
+
+Las cuotas de un plan se generan para todo el saldo o un numero limitado de cuotas?
+
+Que pasa si se cambian las cuotas, se debe anular el plan y crear uno nuevo? que hacer con las cuotas ya abonadas del plan viejo?
+
+El saldo de un credito se calcula tomando el monto total del credito menos las cuotas?
+
+Debitos se generan por periodos 3/19, 4/19, mensuales, por bimestre?
+
+Que pasa con los cuotas enviadas y no debitados efectivamente, se renvian tal cual o se ignoran?
+
+

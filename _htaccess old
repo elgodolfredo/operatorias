@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+Rewriterule ^articulo/(.+)/([0-9]+)/(.+)$ index.php?seccion=$1&articulo=$2
+
+Rewriterule ^$ index.php?accion=eliminar-titular&id=2
