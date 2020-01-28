@@ -5,7 +5,11 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         $error = 'No se puede acceder a la base de datos';
     } else {
         // proceso de logueo
-        extract($_POST);
+        // extract($_POST);
+        // extraigo de a uno los parametros
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
         $consulta = "select * from usuarios where username = '$username' limit 1";
         $resultado = mysqli_query($conexion, $consulta);
         if ($resultado) {
